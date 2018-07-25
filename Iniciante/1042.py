@@ -1,0 +1,10 @@
+entrada = list(map(int, input('').split()))
+lista = [entrada[0],entrada[1],entrada[2]]
+ordenada = sorted(lista)
+print('{}'.format(ordenada[0]))
+print('{}'.format(ordenada[1]))
+print('{}'.format(ordenada[2]))
+print('')
+print('{}'.format(entrada[0]))
+print('{}'.format(entrada[1]))
+print('{}'.format(entrada[2]))

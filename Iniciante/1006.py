@@ -1,0 +1,11 @@
+A = float(input(''))
+B = float(input(''))
+C = float(input(''))
+peso1 = 2
+peso2 = 3
+peso3 = 5
+Ar = (A*peso1)
+Br = (B*peso2)
+Cr = (C*peso3)
+total = (Ar+Br+Cr)/(peso1+peso2+peso3)
+print('MEDIA = {:0.1f}'.format(total))
